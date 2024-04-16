@@ -1,0 +1,197 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #121212;
+}
+a{
+    text-decoration: none;
+}
+.ed-collection {
+    max-width: 1320px;
+    margin: 100px auto;
+    padding-inline: 15px;
+}
+
+
+
+/* common css */
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.ed-collection .collection-thumb .collection-image {
+    overflow: hidden;
+    display: block;
+}
+
+.ed-collection .content-box .collection-title {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* title */
+.ed-collection .collection-title h3{
+    font-size: 70px;
+    line-height: 50px;
+    font-weight: 400;
+}
+@media (max-width: 767px) {
+    .ed-collection .collection-title h3{
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* collection style one */
+.ed-collection.style-one .collection-title{
+    text-align: center;
+    margin-bottom: 38px;
+}
+.ed-collection.style-one .collection-grid .collection-wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px;
+}
+
+.ed-collection.style-one .collection {
+    text-align: center;
+}
+
+.ed-collection.style-one .collection .collection-thumb .collection-image {
+    border-radius: 50%;
+}
+
+.ed-collection.style-one .collection .content-box {
+    margin-top: 27px;
+}
+
+.ed-collection.style-one .collection .content-box .collection-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.ed-collection.style-one .collection .content-box .collection-quantity {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    opacity: .7;
+    margin-top: 5px;
+}
+
+
+/* collection style two */
+.ed-collection.style-two .collection-title{
+    text-align: center;
+    margin-bottom: 46px;
+}
+.ed-collection.style-two .collection-grid .collection-wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 87px;
+}
+
+.ed-collection.style-two .collection {
+    text-align: center;
+}
+.ed-collection.style-two .collection .collection-thumb{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ed-collection.style-two .collection .collection-thumb .collection-image {
+    padding: 15px;
+    background: #F5F5F5;
+}
+.ed-collection.style-two .collection .collection-thumb .collection-image img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ed-collection.style-two .collection .content-box {
+    margin-top: 35px;
+}
+
+.ed-collection.style-two .collection .content-box .collection-title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    transition: .4s all;
+}
+.ed-collection.style-two .collection:hover .content-box .collection-title {
+    text-decoration: underline;
+}
+
+.ed-collection.style-two .collection .content-box .collection-quantity {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    opacity: .7;
+    margin-top: 5px;
+}
+.ed-collection.style-two .collection-group{
+    position: relative;
+}
+.ed-collection.style-two .swiper-button{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #fff;
+    top: 22%;
+    transform: translateY(-22%);
+    box-shadow: 0px 14px 34px 5px rgba(123, 123, 123, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.ed-collection.style-two .swiper-button:after{
+    display: none;
+}
+.ed-collection.style-two .swiper-button svg{
+    width: 10px;
+}
+.ed-collection.style-two .swiper-button-prev[tabindex="-1"], .ed-collection.style-two .swiper-button-disabled {
+    display: none;
+}
+.ed-collection.style-two .swiper-button-next-new {
+    right: -32px;
+}
+.ed-collection.style-two .swiper-button-prev-new {
+    left: -32px;
+}
+.ed-collection.style-two .view-all-btn {
+    text-align: center;
+    margin-top: 60px;
+}
+.ed-collection.style-two .view-all-btn a {
+    padding: 15px 30px;
+    background: #1A192E;
+    border-radius: 54px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.ed-collection.style-two .view-all-btn a:hover {
+    background: #fff;
+    color: #1A192E;
+    border: 1px solid #1A192E;
+}
+
+
