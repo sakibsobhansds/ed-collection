@@ -1096,11 +1096,7 @@ img {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
-    .ed-collection.style-fourteen .collection-grid .collection .content-box{
-        bottom: 10px;
-        left: 10px; 
-        max-width: calc(100% - 20px);
-    }
+   
     .ed-collection.style-fourteen .collection-grid .collection .content-box .collection-title{
         font-size: 18px;
         line-height: 18px;
