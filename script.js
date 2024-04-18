@@ -48,6 +48,10 @@ const swiper9 = new Swiper(".style-nine .collection-slider", {
     el: ".swiper-pagination.style-nine ",
   },
 });
+const swiper10 = new Swiper(".style-ten .collection-slider", {
+  slidesPerView: 7,
+  spaceBetween: 52
+});
 const swiper11 = new Swiper(".style-eleven .collection-slider", {
   slidesPerView: 4,
   spaceBetween: 20
