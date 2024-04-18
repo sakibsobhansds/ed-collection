@@ -52,3 +52,18 @@ const swiper11 = new Swiper(".style-eleven .collection-slider", {
   slidesPerView: 4,
   spaceBetween: 20
 });
+const swiper15 = new Swiper(".style-fifteen .collection-slider", {
+  slidesPerView: 7,
+  spaceBetween: 47,
+  pagination: {
+    el: ".swiper-pagination.style-fifteen ",
+  },
+});
+const swiper16 = new Swiper(".style-sixteen .collection-slider", {
+  slidesPerView: 7,
+  spaceBetween: 47,
+  navigation: {
+    nextEl: ".swiper-button-next-sixteen",
+    prevEl: ".swiper-button-prev-sixteen",
+  },
+});
